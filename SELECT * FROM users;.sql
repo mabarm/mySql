@@ -22,3 +22,7 @@ Be careful when updating records in a table! Notice the WHERE clause in the UPDA
 The WHERE clause specifies which record(s) that should be updated. 
 If you omit the WHERE clause, all records in the table will be updated!
 */
+
+UPDATE users
+SET username ="rohny", email = "rohny@gmail.com"
+where id = "1"
